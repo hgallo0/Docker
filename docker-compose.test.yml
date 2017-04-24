@@ -1,3 +1,8 @@
 sut:
   build: .
-  command: run_tests.sh
+  ports:
+    - "80:80"
+
+#sut:
+#  build: .
+#  command: run_tests.sh
